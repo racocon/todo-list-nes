@@ -6,7 +6,7 @@
     <input 
       type="text" 
       class="nes-input" 
-      placeholder="Add todo..." 
+      placeholder="Add todo..."
       v-on:keyup.enter="addTodo">
 
     <ul>
@@ -71,6 +71,18 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+
+li {
+  margin: 8px;
+}
+
+label {
+  margin: 5px;
+}
+
+del {
+  color: rgba(0, 0, 0, 0.3);
+}
 
 </style>
