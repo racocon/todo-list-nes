@@ -6,15 +6,37 @@
       
     <el-row :gutter="20">
       <el-col :span="12" :offset="6">
-        <el-card>
-          <div class="center-align">
-            <i class="nes-octocat animate"></i>
-          </div>
+          <div class="nes-container is-rounded white-bg">
 
+            <section class="message-list center-align">
+              <section class="message -right">
+                <!-- Balloon -->
+                <div class="nes-balloon from-right">
+                  <p>Hello! Here's your todo list!</p>
+                </div>
+                <i class="nes-octocat animate" style="height: 20px"></i>
+              </section>
+            </section>
+
+          <!-- <div class="center-align">
+            <i class="nes-octocat animate"></i>
+          </div> -->
+          <br>
+          <br>
           <br>
           
           <Todo/>
-        </el-card>
+          
+          <br>
+          <br>
+
+          <div class="center-align">
+            <a href="https://github.com/racocon" target="_blank" aria-label="github"><i class="nes-icon github is-medium"></i></a>
+          </div>
+
+          <br>
+
+          </div>
       </el-col>
     </el-row>
   </div>
@@ -51,6 +73,10 @@ body {
   padding: 20px;
 }
 
+.white-bg {
+  background: #fff;
+}
+
 #app {
   border-radius: 4px;
   padding: 20px;
@@ -82,6 +108,10 @@ body {
 
 .el-col {
   border-radius: 4px;
+}
+
+.nes-balloon {
+  width: 300px;
 }
 
 </style>

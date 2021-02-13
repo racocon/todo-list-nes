@@ -1,7 +1,7 @@
 <template>
   <div class="todo">
-    <h2 class="center-align">{{ msg }}</h2>
-
+    <!-- <h2 class="center-align">{{ msg }}</h2> -->
+    
     <!-- Add todo list -->
     <input 
       type="text" 
